@@ -15,3 +15,4 @@ yfinance.cache
 *.svg
 cek.py
 .vscode
+*.ipynb
