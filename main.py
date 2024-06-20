@@ -17,7 +17,7 @@ try:
         key = os.environ.get("SUPABASE_KEY")
         supabase = create_client(url, key)
         
-        proxy = os.environ.get("proxy")
+        proxy = os.environ.get("PROXY")
 
         proxy_support = urllib.request.ProxyHandler({'http': proxy,'https': proxy})
         opener = urllib.request.build_opener(proxy_support)
